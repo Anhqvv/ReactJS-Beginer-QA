@@ -23,6 +23,11 @@ export class Nav extends Component {
                      About
                   </NavLink>
                </li>
+               <li>
+                  <NavLink to="/user" activeClassName="active">
+                     Users
+                  </NavLink>
+               </li>
             </ul>
          </div>
       );

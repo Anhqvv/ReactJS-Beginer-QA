@@ -7,6 +7,7 @@ import Toastify from "./Todos/Toastify";
 import Nav from "./Navigation/Nav";
 import Home from "./Navigation/Home";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import ListUser from "./ListUser/ListUser";
 
 function App() {
    // const  App = () =>  {
@@ -26,6 +27,9 @@ function App() {
                   </Route>
                   <Route path="/about">
                      <MyComponent />
+                  </Route>
+                  <Route path="/user">
+                     <ListUser />
                   </Route>
                </Switch>
             </header>
